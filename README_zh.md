@@ -5,6 +5,9 @@
 
 一个支持多格式文档转换的自动化工具，支持PDF、Word、Excel等格式转Markdown。
 
+![WebUI-ZH](https://github.com/user-attachments/assets/6192cc64-7916-47d0-8688-6308290efec3)
+
+
 ## ✨ 功能特性
 - 批量处理多文件
 - 支持GPU加速（自动检测CUDA）
