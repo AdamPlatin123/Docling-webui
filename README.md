@@ -6,6 +6,8 @@
 
 An automated tool for converting documents (PDF, Word, Excel, etc.) to Markdown.
 
+![webui-en](https://github.com/user-attachments/assets/aa7196cf-96e5-428d-8fc5-b0c029c9c9fe)
+
 ## ✨ Features
 - Batch file processing
 - GPU acceleration (auto-detects CUDA)
