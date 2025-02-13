@@ -184,4 +184,4 @@ if __name__ == "__main__":
             share=False
         )
     finally:
-        print(f"✅ Service running on port {port}")
+        print(f"✅ Service closed on port {port}")
