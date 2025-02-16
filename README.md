@@ -1,8 +1,13 @@
 
 # Docling Document Processor WebUI
 
+![image](https://github.com/user-attachments/assets/790d82a1-48bc-417b-9a23-2098d1454291)
+
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Gradio](https://img.shields.io/badge/Gradio-3.x-orange)
+
+[简体中文](https://github.com/AdamPlatin123/Docling-webui/blob/main/README_zh.md)
 
 An automated tool for converting documents (PDF, Word, Excel, etc.) to Markdown.
 
