@@ -3,6 +3,9 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Gradio](https://img.shields.io/badge/Gradio-3.x-orange)
 
+![image](https://github.com/user-attachments/assets/5df7a744-8d6d-4d1a-bbb7-f640023197d3)
+
+
 一个支持多格式文档转换的自动化工具，支持PDF、Word、Excel等格式转Markdown。
 
 ![WebUI-ZH](https://github.com/user-attachments/assets/6192cc64-7916-47d0-8688-6308290efec3)
