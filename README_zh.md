@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 ### 启动服务
 ```bash
-python Docling-webui.py
+python Docling-webui-ZH.py
 ```
 ## 📂 支持格式
 文档：`.pdf, .docx, .pptx, .xlsx`
