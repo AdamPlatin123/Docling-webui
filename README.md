@@ -1,4 +1,3 @@
-
 # Docling Document Processor WebUI
 
 ![image](https://github.com/user-attachments/assets/790d82a1-48bc-417b-9a23-2098d1454291)
@@ -21,14 +20,51 @@ An automated tool for converting documents (PDF, Word, Excel, etc.) to Markdown.
 
 ## 🚀 Quick Start
 
-### Install dependencies
+For a more automated setup, you can use the provided startup scripts. These scripts handle virtual environment creation, dependency installation, and application launch.
+
+### Automated Startup Scripts
+
+**For Linux/macOS users:**
+1.  Make the script executable (if you haven't already done so, or if you downloaded it):
+    ```bash
+    chmod +x start.sh
+    ```
+2.  Run the script:
+    ```bash
+    ./start.sh
+    ```
+
+**For Windows users:**
+1.  Simply run the script by double-clicking `start.bat` or typing the following in your command prompt:
+    ```bash
+    start.bat
+    ```
+
+These scripts will:
+*   Check for Python 3.
+*   Create a Python virtual environment named `venv` if it doesn't already exist.
+*   Activate the virtual environment.
+*   Install (or update) all necessary dependencies from `requirements.txt`.
+*   Launch the `Docling-webui.py` application.
+*   Attempt to open your default web browser to `http://localhost:7860`.
+
+**Note:** The application might sometimes start on a different port if 7860 is occupied. Please check the console output from the script for the exact URL (e.g., `http://localhost:XXXX`) and open it manually if the browser doesn't point to the correct address.
+
+### Manual Setup
+
+If you prefer to set up and run the application manually:
+
+#### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-### Launch service
+*(Ensure you are in a Python 3 environment or virtual environment before running this.)*
+
+#### Launch service
 ```bash
 python Docling-webui.py
 ```
+
 ## 📂 Supported Formats
 Documents: `.pdf, .docx, .pptx, .xlsx`
 
